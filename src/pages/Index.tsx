@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import MenuCategories from '../components/MenuCategories';
+import Deals from '../components/Deals';
 import FeaturedItems from '../components/FeaturedItems';
 import Footer from '../components/Footer';
 import { CartProvider } from '../context/CartContext';
@@ -14,6 +15,7 @@ const Index = () => {
         <Header />
         <Hero />
         <MenuCategories />
+        <Deals />
         <FeaturedItems />
         <Footer />
       </div>
